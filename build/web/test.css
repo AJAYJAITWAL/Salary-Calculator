@@ -1,0 +1,48 @@
+body
+{
+	background-image: url('h1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%
+
+}
+#block
+{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+    background-color: rgba(0,10,0,0.7);
+	border-radius:100px 100px 10px 10px;
+}
+#menu
+{
+	background-color: rgba(0,10,0,0.9);
+	color: Gold;
+	text-align: right;
+}	
+#menu ul li
+{
+	padding: 35px;
+	display: 35px;
+        display: inline-block;
+	
+}
+
+/*
+#footer
+{
+	width: 95%;
+	height: 100px;
+	float: left;
+}
+
+#data3
+{
+	width: 20%;
+	background-color: rgba(0,0,0,0.4);
+	height: 250;
+	color: cyan;
+	float: left;
+	margin-top: 500px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}*/

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<link rel="stylesheet" href="test.css">
+	<style type="text/css">
+	body
+	{
+	background-image:url('lgg.jpg');
+	background-repeat:no-repeat;
+	background-size:100%; 
+	}
+table
+	{
+		margin-top:100px;
+		background-color:rgba(0,10,0,0.5);
+	}	
+	.B
+	{
+		width: 100px;
+		height: 25px;
+		color: white;
+		background:linear-gradient(blue,yellow);
+		border-radius: 10px 0px 10px;
+	}
+	.B:hover
+	{
+		width:100px;
+		height: 25px;
+		color: white;
+		background: linear-gradient(pink,green);
+		border-radius: 20px 0px 20px;
+	}
+</style>
+</head>
+<body>
+	<a href="home.html"></a>
+	<div id="menu">
+<ul>
+	<li><a href="info.html"> Home </a></li>
+	<li><a href="emplogin.html">Employee Login </a></li>
+        <li><a href="login.html">Admin Login </a></li>
+	<li><a href="about.html">  About Us </a></li>
+	<li><a href="contact.html"> Contact Us </a></li>
+</ul>	
+	
+</div>
+	<div>
+		<center>
+		<form action="Login1" method="get">
+			<table cellpadding="20px">
+                            <tr>
+					<h1 style="color: gold;">Admin Login</h1>
+					
+				</tr>
+				<tr>
+					<td style="font-style:italic; color: red;"  >Enter ID</td>
+					<td> <input type="text" placeholder="Enter ID" name="id"></td>
+				</tr>
+				<tr>
+					<td style="font-style:italic; color: red;">Enter Password</td>
+					<td> <input type="Password" placeholder="Enter Password" name="apass"></td>
+			</tr>
+			<tr>
+					<th colspan="2"><input type="Submit" class="B" style="font-style:italic; color: pink;" value="Login"></th>
+			</tr>
+
+			</table>
+			</center>
+	</div>
+</body>
+</html>
